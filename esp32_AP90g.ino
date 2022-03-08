@@ -1,4 +1,4 @@
-#include <ESP8266WiFi.h>
+#include <WiFi.h>
 #include <Servo.h>
 const char *ssid = "balalanengliang";           //AP的WiFi名字
 const char *password = "WuhuLahu-DarkDemonTransformation";  //密码
