@@ -1,9 +1,9 @@
 #include <WiFi.h>
 #include <esp32servo.h>
-// 内容未改变，代码仍需更改
+
 const char *ssid = "balalanengliang";           //AP的WiFi名字
 const char *password = "WuhuLahu-DarkDemonTransformation";  //密码
-int led=2;                          //设置指示灯io
+int led=2;                          //设置指示灯io(外接LED)
 Servo servo;
 void setup() {
   Serial.begin(115200);             //设置波特率
